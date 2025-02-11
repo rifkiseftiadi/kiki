@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang di Aplikasi</title>
+    <style>
+        /* Styling untuk container utama */
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #f0f8ff; /* Background biru muda */
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 255, 0.2); /* Bayangan biru */
+        }
+
+        /* Styling untuk judul utama */
+        h1 {
+            text-align: center;
+            color: #1e3a8a; /* Biru gelap */
+            font-size: 36px;
+        }
+
+        /* Styling untuk paragraf */
+        p {
+            text-align: center;
+            color: #1e3a8a;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        /* Styling untuk tabel data mahasiswa */
+        .data-mahasiswa {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        /* Styling untuk header dan data di tabel */
+        .data-mahasiswa th,
+        .data-mahasiswa td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        /* Styling untuk header tabel */
+        .data-mahasiswa th {
+            background-color: #3b82f6; /* Biru terang */
+            color: white;
+        }
+
+        /* Styling untuk baris genap tabel */
+        .data-mahasiswa tr:nth-child(even) {
+            background-color: #e0f7ff; /* Biru muda untuk baris genap */
+        }
+
+        /* Styling untuk efek hover pada tabel */
+        .data-mahasiswa tr:hover {
+            background-color: #bbf7ff; /* Biru lebih terang saat hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Selamat Datang di Aplikasi</h1>
+        <p>
+            Ini adalah halaman utama dengan desain biru yang menarik menggunakan HTML dan CSS!
+        </p>
+        <table class="data-mahasiswa">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Nama</th>
+                    <th>NIM</th>
+                    <th>Program Studi</th>
+                    <th>Jurusan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ahmad Zaki</td>
+                    <td>2021001</td>
+                    <td>Teknik Informatika</td>
+                    <td>Teknik</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Siti Nur Aisyah</td>
+                    <td>2021002</td>
+                    <td>Manajemen</td>
+                    <td>Ekonomi</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Budi Santoso</td>
+                    <td>2021003</td>
+                    <td>Desain Komunikasi Visual</td>
+                    <td>Seni</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rina Amelia</td>
+                    <td>2021004</td>
+                    <td>Psikologi</td>
+                    <td>Ilmu Sosial</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
